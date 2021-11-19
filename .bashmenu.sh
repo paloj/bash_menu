@@ -2,7 +2,6 @@
 
 ## Collect the files in the array $files
 MYPATH="`dirname \"$0\"`"
-echo $MYPATH
 cd $MYPATH
 curdir=`pwd`
 files=( * )
