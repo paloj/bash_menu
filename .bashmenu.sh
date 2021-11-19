@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 
 ## Collect the files in the array $files
-files=( ~/bash_menu/* )
+MYPATH="`dirname \"$0\"`"
+echo $MYPATH
+cd $MYPATH
+curdir=`pwd`
+files=( * )
 ## Enable extended globbing. This lets us use @(foo|bar) to
 ## match either 'foo' or 'bar'.
 shopt -s extglob
@@ -39,7 +43,7 @@ do
 	read -p 'Nickname for this command: ' nick
 	touch ./$nick
 	echo $new_command > ./$nick
-	exec ./sshmenu.sh
+	exec ./.bashmenu.sh
 	;;
     *)
         file=""
