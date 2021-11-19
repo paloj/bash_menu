@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 ## Collect the files in the array $files
-files=( * )
+files=( ~/bash_menu/* )
 ## Enable extended globbing. This lets us use @(foo|bar) to
 ## match either 'foo' or 'bar'.
 shopt -s extglob
