@@ -13,7 +13,7 @@ You can manually remove menu item files from the script folder.
 You can add this script to aliases like:
 ```bash
 cd
-git clone bash_menu
+git clone https://github.com/paloj/bash_menu.git
 touch .bash_aliases
 echo "alias menu='~/bash_menu/.bashmenu.sh'" >> .bash_aliases
 ```
