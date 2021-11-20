@@ -4,16 +4,26 @@ Add custom commands to a menu with short nick. Options to run, create new or qui
 ![menu1](https://user-images.githubusercontent.com/73587747/142691557-5edf422c-623c-4919-803f-b88ecedd989b.png)
 ![menu2](https://user-images.githubusercontent.com/73587747/142691571-1540b87a-21a5-4407-9e06-ef7b32cb8068.png)
 
-
-You can manually remove menu item files from the script folder.
-
-
-
-
-You can add this script to aliases like:
+Clone the repo:
 ```bash
 cd
 git clone https://github.com/paloj/bash_menu.git
+```
+
+You can manually remove unwanted menu item files from the script folder with <code>rm</code>
+```bash
+cd ~/bash_menu
+rm README.md
+rm pi_local
+```
+
+Make the script executable:
+```bash
+sudo chmod +x ~/bash_menu/.bashmenu.sh
+```
+
+You can add this script to aliases like:
+```bash
 touch .bash_aliases
 echo "alias menu='~/bash_menu/.bashmenu.sh'" >> .bash_aliases
 ```
