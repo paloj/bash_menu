@@ -10,13 +10,6 @@ cd
 git clone https://github.com/paloj/bash_menu.git
 ```
 
-You can manually remove unwanted menu item files from the script folder with <code>rm</code>
-```bash
-cd ~/bash_menu
-rm README.md
-rm pi_local
-```
-
 Make the script executable:
 ```bash
 sudo chmod +x ~/bash_menu/.bashmenu.sh
@@ -35,4 +28,11 @@ echo "alias §='~/bash_menu/.bashmenu.sh'" >> .bash_aliases
 Then relogin and run:
 ```bash
 menu
+```
+
+You can manually remove unwanted menu item files from the script folder with <code>rm</code>
+```bash
+cd ~/bash_menu
+rm README.md
+rm pi_local
 ```
