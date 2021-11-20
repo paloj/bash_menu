@@ -15,7 +15,7 @@ Make the script executable:
 sudo chmod +x ~/bash_menu/.bashmenu.sh
 ```
 
-You can add this script to aliases like:
+You can add this script to aliases:
 ```bash
 touch .bash_aliases
 echo "alias menu='~/bash_menu/.bashmenu.sh'" >> .bash_aliases
