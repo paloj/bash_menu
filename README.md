@@ -17,6 +17,11 @@ git clone https://github.com/paloj/bash_menu.git
 touch .bash_aliases
 echo "alias menu='~/bash_menu/.bashmenu.sh'" >> .bash_aliases
 ```
+For nordic keyboard: if you want even shorter command for menu use the ½§ key above tab:
+```bash
+echo "alias §='~/bash_menu/.bashmenu.sh'" >> .bash_aliases
+```
+
 Then relogin and run:
 ```bash
 menu
