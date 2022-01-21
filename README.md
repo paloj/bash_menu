@@ -1,5 +1,5 @@
 # bash_menu
-Command line menu system for linux bash.
+Commandline menu system for linux bash.
 
 Add custom commands to a menu with short nick. Options to run, create new or quit. Good for example ssh targets or other command lists.
 
