@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-## Collect the files in the array $files
+## Collect the files in the bash menu folder to an array $files
 MYPATH="`dirname \"$0\"`"
 cd $MYPATH
 curdir=`pwd`
