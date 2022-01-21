@@ -3,6 +3,8 @@ Command line menu system for linux bash.
 
 Add custom commands to a menu with short nick. Options to run, create new or quit. Good for example ssh targets or other command lists.
 
+When you add a new menu item a new file is created to the bash menu folder. The file name is the nickname and the contents are the script that will be run when the menu item is selected.
+
 ![menu1](https://user-images.githubusercontent.com/73587747/142691557-5edf422c-623c-4919-803f-b88ecedd989b.png)
 ![menu2](https://user-images.githubusercontent.com/73587747/142691571-1540b87a-21a5-4407-9e06-ef7b32cb8068.png)
 
