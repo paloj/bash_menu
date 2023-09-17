@@ -7,6 +7,9 @@
 
 Welcome to the **Bash Menu** codebase! This is a command-line menu system for Linux bash. It allows you to add custom commands to a menu with a short nickname. This is particularly useful for managing ssh targets or other command lists.
 
+![menu1](https://user-images.githubusercontent.com/73587747/142691557-5edf422c-623c-4919-803f-b88ecedd989b.png)
+![menu2](https://user-images.githubusercontent.com/73587747/142691571-1540b87a-21a5-4407-9e06-ef7b32cb8068.png)
+
 ## Main Functionalities
 
 - Add custom commands to a menu with a short nickname.
